@@ -1057,7 +1057,13 @@ def index_time_series(monthly_portfolios):
         plt.close()
 
         #display(monthly_portfolios[[f'{i} month {m}' for m in skew_methods]].corr().round(2))
-        corr_mtx=monthly_portfolios[[f'{i} month {m}' for m in skew_methods]].corr().round(2)
+        if 'SKEW_KNS' in skew_methods:
+            skew_methods.remove('SKEW_KNS')
+            skew_methods.append('SKEW_KNS_scaled')
+            corr_mtx=monthly_portfolios[[f'{i} month {m}' for m in skew_methods]].corr().round(2)
+
+        else:
+            corr_mtx=monthly_portfolios[[f'{i} month {m}' for m in skew_methods]].corr().round(2)
         corr_mtx.to_csv(f'outputs/index time series/{i} month Skew Inex Correlations.csv')
 
 
