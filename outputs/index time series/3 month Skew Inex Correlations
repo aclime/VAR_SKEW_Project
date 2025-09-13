@@ -1,0 +1,5 @@
+,3 month CBOE SKEW,3 month SKEW Method 2,3 month SSKEW,3 month SKEW_KNS
+3 month CBOE SKEW,1.0,0.99,0.88,-0.21
+3 month SKEW Method 2,0.99,1.0,0.95,-0.14
+3 month SSKEW,0.88,0.95,1.0,0.04
+3 month SKEW_KNS,-0.21,-0.14,0.04,1.0

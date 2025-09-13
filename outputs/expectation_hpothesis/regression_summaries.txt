@@ -1,0 +1,336 @@
+--- VIX^2 2 Month Regression ---
+---- Continuous HPR Version ----
+----- Primal Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                  0.023
+Method:                 Least Squares   F-statistic:                     6.793
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):            0.00960
+Time:                        12:30:48   Log-Likelihood:                 1268.3
+No. Observations:                 307   AIC:                            -2533.
+Df Residuals:                     305   BIC:                            -2525.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0002      0.000     -0.932      0.351      -0.001       0.000
+0              0.3298      0.127      2.606      0.009       0.082       0.578
+==============================================================================
+Omnibus:                      278.765   Durbin-Watson:                   2.352
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25168.541
+Skew:                           3.136   Prob(JB):                         0.00
+Kurtosis:                      46.912   Cond. No.                         522.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+--- Dual Regression ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      H   R-squared:                       0.098
+Model:                            OLS   Adj. R-squared:                  0.095
+Method:                 Least Squares   F-statistic:                     28.06
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):           2.26e-07
+Time:                        12:30:48   Log-Likelihood:                 1268.3
+No. Observations:                 307   AIC:                            -2533.
+Df Residuals:                     305   BIC:                            -2525.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.000      0.932      0.351      -0.000       0.001
+0              0.6702      0.127      5.297      0.000       0.422       0.918
+==============================================================================
+Omnibus:                      278.765   Durbin-Watson:                   2.352
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25168.541
+Skew:                          -3.136   Prob(JB):                         0.00
+Kurtosis:                      46.912   Cond. No.                         522.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+---- Dicrete HPR Version ----
+----- Dual Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             H_discrete   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.155
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.283
+Time:                        12:30:48   Log-Likelihood:                 1170.1
+No. Observations:                 307   AIC:                            -2336.
+Df Residuals:                     305   BIC:                            -2329.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0007      0.000      1.982      0.048    7.23e-06       0.001
+0              0.1740      0.162      1.074      0.283      -0.143       0.491
+==============================================================================
+Omnibus:                      275.755   Durbin-Watson:                   2.182
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            69930.026
+Skew:                          -2.713   Prob(JB):                         0.00
+Kurtosis:                      76.739   Cond. No.                         522.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+--- GVIX^2 2 Month Regression ---
+---- Continuous HPR Version ----
+----- Primal Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.070
+Model:                            OLS   Adj. R-squared:                  0.067
+Method:                 Least Squares   F-statistic:                     8.751
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):            0.00334
+Time:                        12:30:48   Log-Likelihood:                 1309.4
+No. Observations:                 307   AIC:                            -2615.
+Df Residuals:                     305   BIC:                            -2607.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0002      0.000     -0.899      0.369      -0.001       0.000
+0              0.5158      0.174      2.958      0.003       0.174       0.858
+==============================================================================
+Omnibus:                      313.714   Durbin-Watson:                   2.231
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25218.294
+Skew:                           3.913   Prob(JB):                         0.00
+Kurtosis:                      46.706   Cond. No.                         552.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+--- Dual Regression ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      H   R-squared:                       0.062
+Model:                            OLS   Adj. R-squared:                  0.059
+Method:                 Least Squares   F-statistic:                     7.712
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):            0.00583
+Time:                        12:30:48   Log-Likelihood:                 1309.4
+No. Observations:                 307   AIC:                            -2615.
+Df Residuals:                     305   BIC:                            -2607.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.000      0.899      0.369      -0.000       0.001
+0              0.4842      0.174      2.777      0.005       0.142       0.826
+==============================================================================
+Omnibus:                      313.714   Durbin-Watson:                   2.231
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25218.294
+Skew:                          -3.913   Prob(JB):                         0.00
+Kurtosis:                      46.706   Cond. No.                         552.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+---- Dicrete HPR Version ----
+----- Dual Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             H_discrete   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.8901
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.346
+Time:                        12:30:48   Log-Likelihood:                 1219.3
+No. Observations:                 307   AIC:                            -2435.
+Df Residuals:                     305   BIC:                            -2427.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0011      0.000      3.781      0.000       0.001       0.002
+0             -0.0890      0.094     -0.943      0.345      -0.274       0.096
+==============================================================================
+Omnibus:                      202.149   Durbin-Watson:                   1.947
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            80310.647
+Skew:                           1.354   Prob(JB):                         0.00
+Kurtosis:                      82.190   Cond. No.                         552.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+--- VIX^2 3 Month Regression ---
+---- Continuous HPR Version ----
+----- Primal Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.096
+Model:                            OLS   Adj. R-squared:                  0.093
+Method:                 Least Squares   F-statistic:                     9.217
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):            0.00261
+Time:                        12:30:48   Log-Likelihood:                 1209.6
+No. Observations:                 306   AIC:                            -2415.
+Df Residuals:                     304   BIC:                            -2408.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0002      0.000     -0.850      0.395      -0.001       0.000
+0              0.4694      0.155      3.036      0.002       0.166       0.772
+==============================================================================
+Omnibus:                      295.916   Durbin-Watson:                   1.402
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15964.395
+Skew:                           3.719   Prob(JB):                         0.00
+Kurtosis:                      37.595   Cond. No.                         310.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+--- Dual Regression ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      H   R-squared:                       0.119
+Model:                            OLS   Adj. R-squared:                  0.116
+Method:                 Least Squares   F-statistic:                     11.78
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):           0.000682
+Time:                        12:30:48   Log-Likelihood:                 1209.6
+No. Observations:                 306   AIC:                            -2415.
+Df Residuals:                     304   BIC:                            -2408.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002      0.000      0.850      0.395      -0.000       0.001
+0              0.5306      0.155      3.432      0.001       0.228       0.834
+==============================================================================
+Omnibus:                      295.916   Durbin-Watson:                   1.402
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15964.395
+Skew:                          -3.719   Prob(JB):                         0.00
+Kurtosis:                      37.595   Cond. No.                         310.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+---- Dicrete HPR Version ----
+----- Dual Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             H_discrete   R-squared:                       0.041
+Model:                            OLS   Adj. R-squared:                  0.038
+Method:                 Least Squares   F-statistic:                     16.40
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):           6.53e-05
+Time:                        12:30:48   Log-Likelihood:                 1179.4
+No. Observations:                 306   AIC:                            -2355.
+Df Residuals:                     304   BIC:                            -2347.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0010      0.000      3.391      0.001       0.000       0.002
+0              0.3307      0.082      4.049      0.000       0.171       0.491
+==============================================================================
+Omnibus:                      412.536   Durbin-Watson:                   1.703
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            84508.008
+Skew:                          -6.005   Prob(JB):                         0.00
+Kurtosis:                      83.522   Cond. No.                         310.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+--- GVIX^2 3 Month Regression ---
+---- Continuous HPR Version ----
+----- Primal Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.162
+Model:                            OLS   Adj. R-squared:                  0.159
+Method:                 Least Squares   F-statistic:                     37.08
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):           3.42e-09
+Time:                        12:30:48   Log-Likelihood:                 1254.8
+No. Observations:                 306   AIC:                            -2506.
+Df Residuals:                     304   BIC:                            -2498.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0001      0.000     -0.452      0.652      -0.001       0.000
+0              0.6251      0.103      6.089      0.000       0.424       0.826
+==============================================================================
+Omnibus:                      337.139   Durbin-Watson:                   1.291
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            17768.202
+Skew:                           4.680   Prob(JB):                         0.00
+Kurtosis:                      39.138   Cond. No.                         355.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+--- Dual Regression ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      H   R-squared:                       0.065
+Model:                            OLS   Adj. R-squared:                  0.062
+Method:                 Least Squares   F-statistic:                     13.33
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):           0.000307
+Time:                        12:30:48   Log-Likelihood:                 1254.8
+No. Observations:                 306   AIC:                            -2506.
+Df Residuals:                     304   BIC:                            -2498.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0001      0.000      0.452      0.652      -0.000       0.001
+0              0.3749      0.103      3.651      0.000       0.174       0.576
+==============================================================================
+Omnibus:                      337.139   Durbin-Watson:                   1.291
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            17768.202
+Skew:                          -4.680   Prob(JB):                         0.00
+Kurtosis:                      39.138   Cond. No.                         355.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+---- Dicrete HPR Version ----
+----- Dual Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             H_discrete   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.1752
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.676
+Time:                        12:30:48   Log-Likelihood:                 1241.3
+No. Observations:                 306   AIC:                            -2479.
+Df Residuals:                     304   BIC:                            -2471.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0016      0.000      5.784      0.000       0.001       0.002
+0              0.0481      0.115      0.419      0.675      -0.177       0.273
+==============================================================================
+Omnibus:                      340.326   Durbin-Watson:                   1.613
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            41219.443
+Skew:                          -4.363   Prob(JB):                         0.00
+Kurtosis:                      59.185   Cond. No.                         355.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
