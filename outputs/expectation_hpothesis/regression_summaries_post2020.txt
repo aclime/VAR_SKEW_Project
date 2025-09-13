@@ -1,0 +1,354 @@
+--- VIX^2 2 Month Regression ---
+---- Continuous HPR Version ----
+----- Primal Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.199
+Model:                            OLS   Adj. R-squared:                  0.152
+Method:                 Least Squares   F-statistic:                     3.878
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):             0.0654
+Time:                        10:41:31   Log-Likelihood:                 94.375
+No. Observations:                  19   AIC:                            -184.8
+Df Residuals:                      17   BIC:                            -182.9
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0011      0.000     -2.239      0.025      -0.002      -0.000
+0              0.8756      0.445      1.969      0.049       0.004       1.747
+==============================================================================
+Omnibus:                        0.401   Durbin-Watson:                   2.307
+Prob(Omnibus):                  0.818   Jarque-Bera (JB):                0.533
+Skew:                          -0.175   Prob(JB):                        0.766
+Kurtosis:                       2.258   Cond. No.                     1.04e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.04e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+--- Dual Regression ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      H   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                 -0.054
+Method:                 Least Squares   F-statistic:                   0.07834
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.783
+Time:                        10:41:31   Log-Likelihood:                 94.375
+No. Observations:                  19   AIC:                            -184.8
+Df Residuals:                      17   BIC:                            -182.9
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0011      0.000      2.239      0.025       0.000       0.002
+0              0.1244      0.445      0.280      0.780      -0.747       0.996
+==============================================================================
+Omnibus:                        0.401   Durbin-Watson:                   2.307
+Prob(Omnibus):                  0.818   Jarque-Bera (JB):                0.533
+Skew:                           0.175   Prob(JB):                        0.766
+Kurtosis:                       2.258   Cond. No.                     1.04e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.04e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+---- Dicrete HPR Version ----
+----- Dual Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             H_discrete   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.054
+Method:                 Least Squares   F-statistic:                   0.06731
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.798
+Time:                        10:41:31   Log-Likelihood:                 91.834
+No. Observations:                  19   AIC:                            -179.7
+Df Residuals:                      17   BIC:                            -177.8
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0014      0.001      2.131      0.033       0.000       0.003
+0             -0.1323      0.510     -0.259      0.795      -1.131       0.867
+==============================================================================
+Omnibus:                        1.873   Durbin-Watson:                   2.159
+Prob(Omnibus):                  0.392   Jarque-Bera (JB):                0.855
+Skew:                          -0.513   Prob(JB):                        0.652
+Kurtosis:                       3.164   Cond. No.                     1.04e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.04e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+--- GVIX^2 2 Month Regression ---
+---- Continuous HPR Version ----
+----- Primal Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.273
+Model:                            OLS   Adj. R-squared:                  0.231
+Method:                 Least Squares   F-statistic:                     5.845
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):             0.0271
+Time:                        10:41:31   Log-Likelihood:                 96.560
+No. Observations:                  19   AIC:                            -189.1
+Df Residuals:                      17   BIC:                            -187.2
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0007      0.000     -2.076      0.038      -0.001   -3.99e-05
+0              1.0552      0.436      2.418      0.016       0.200       1.911
+==============================================================================
+Omnibus:                        0.807   Durbin-Watson:                   2.221
+Prob(Omnibus):                  0.668   Jarque-Bera (JB):                0.682
+Skew:                          -0.016   Prob(JB):                        0.711
+Kurtosis:                       2.072   Cond. No.                     1.15e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.15e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+--- Dual Regression ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      H   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.058
+Method:                 Least Squares   F-statistic:                   0.01602
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.901
+Time:                        10:41:31   Log-Likelihood:                 96.560
+No. Observations:                  19   AIC:                            -189.1
+Df Residuals:                      17   BIC:                            -187.2
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0007      0.000      2.076      0.038    3.99e-05       0.001
+0             -0.0552      0.436     -0.127      0.899      -0.911       0.800
+==============================================================================
+Omnibus:                        0.807   Durbin-Watson:                   2.221
+Prob(Omnibus):                  0.668   Jarque-Bera (JB):                0.682
+Skew:                           0.016   Prob(JB):                        0.711
+Kurtosis:                       2.072   Cond. No.                     1.15e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.15e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+---- Dicrete HPR Version ----
+----- Dual Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             H_discrete   R-squared:                       0.018
+Model:                            OLS   Adj. R-squared:                 -0.040
+Method:                 Least Squares   F-statistic:                    0.3000
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.591
+Time:                        10:41:31   Log-Likelihood:                 95.888
+No. Observations:                  19   AIC:                            -187.8
+Df Residuals:                      17   BIC:                            -185.9
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0011      0.000      2.391      0.017       0.000       0.002
+0             -0.2416      0.441     -0.548      0.584      -1.106       0.623
+==============================================================================
+Omnibus:                        3.153   Durbin-Watson:                   1.955
+Prob(Omnibus):                  0.207   Jarque-Bera (JB):                1.631
+Skew:                          -0.697   Prob(JB):                        0.442
+Kurtosis:                       3.342   Cond. No.                     1.15e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.15e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+--- VIX^2 3 Month Regression ---
+---- Continuous HPR Version ----
+----- Primal Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.178
+Model:                            OLS   Adj. R-squared:                  0.127
+Method:                 Least Squares   F-statistic:                     5.637
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):             0.0304
+Time:                        10:41:31   Log-Likelihood:                 86.045
+No. Observations:                  18   AIC:                            -168.1
+Df Residuals:                      16   BIC:                            -166.3
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0021      0.001     -2.819      0.005      -0.003      -0.001
+0              0.9129      0.385      2.374      0.018       0.159       1.667
+==============================================================================
+Omnibus:                        1.340   Durbin-Watson:                   1.819
+Prob(Omnibus):                  0.512   Jarque-Bera (JB):                1.098
+Skew:                           0.416   Prob(JB):                        0.578
+Kurtosis:                       2.121   Cond. No.                         965.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+
+--- Dual Regression ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      H   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.060
+Method:                 Least Squares   F-statistic:                   0.05130
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.824
+Time:                        10:41:31   Log-Likelihood:                 86.045
+No. Observations:                  18   AIC:                            -168.1
+Df Residuals:                      16   BIC:                            -166.3
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0021      0.001      2.819      0.005       0.001       0.003
+0              0.0871      0.385      0.226      0.821      -0.667       0.841
+==============================================================================
+Omnibus:                        1.340   Durbin-Watson:                   1.819
+Prob(Omnibus):                  0.512   Jarque-Bera (JB):                1.098
+Skew:                          -0.416   Prob(JB):                        0.578
+Kurtosis:                       2.121   Cond. No.                         965.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+
+---- Dicrete HPR Version ----
+----- Dual Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             H_discrete   R-squared:                       0.030
+Model:                            OLS   Adj. R-squared:                 -0.031
+Method:                 Least Squares   F-statistic:                     3.009
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.102
+Time:                        10:41:31   Log-Likelihood:                 82.262
+No. Observations:                  18   AIC:                            -160.5
+Df Residuals:                      16   BIC:                            -158.7
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0022      0.001      2.977      0.003       0.001       0.004
+0              0.4242      0.245      1.735      0.083      -0.055       0.904
+==============================================================================
+Omnibus:                        0.971   Durbin-Watson:                   1.880
+Prob(Omnibus):                  0.615   Jarque-Bera (JB):                0.105
+Skew:                          -0.117   Prob(JB):                        0.949
+Kurtosis:                       3.293   Cond. No.                         965.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+
+--- GVIX^2 3 Month Regression ---
+---- Continuous HPR Version ----
+----- Primal Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.365
+Model:                            OLS   Adj. R-squared:                  0.325
+Method:                 Least Squares   F-statistic:                     14.14
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):            0.00171
+Time:                        10:41:31   Log-Likelihood:                 89.382
+No. Observations:                  18   AIC:                            -174.8
+Df Residuals:                      16   BIC:                            -173.0
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0015      0.000     -3.444      0.001      -0.002      -0.001
+0              1.3888      0.369      3.760      0.000       0.665       2.113
+==============================================================================
+Omnibus:                        2.449   Durbin-Watson:                   1.794
+Prob(Omnibus):                  0.294   Jarque-Bera (JB):                1.791
+Skew:                           0.609   Prob(JB):                        0.408
+Kurtosis:                       2.049   Cond. No.                     1.09e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.09e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+--- Dual Regression ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      H   R-squared:                       0.043
+Model:                            OLS   Adj. R-squared:                 -0.017
+Method:                 Least Squares   F-statistic:                     1.108
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.308
+Time:                        10:41:31   Log-Likelihood:                 89.382
+No. Observations:                  18   AIC:                            -174.8
+Df Residuals:                      16   BIC:                            -173.0
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0015      0.000      3.444      0.001       0.001       0.002
+0             -0.3888      0.369     -1.053      0.292      -1.113       0.335
+==============================================================================
+Omnibus:                        2.449   Durbin-Watson:                   1.794
+Prob(Omnibus):                  0.294   Jarque-Bera (JB):                1.791
+Skew:                          -0.609   Prob(JB):                        0.408
+Kurtosis:                       2.049   Cond. No.                     1.09e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.09e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+---- Dicrete HPR Version ----
+----- Dual Regression -----
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             H_discrete   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.059
+Method:                 Least Squares   F-statistic:                   0.09089
+Date:                Sat, 13 Sep 2025   Prob (F-statistic):              0.767
+Time:                        10:41:31   Log-Likelihood:                 84.895
+No. Observations:                  18   AIC:                            -165.8
+Df Residuals:                      16   BIC:                            -164.0
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0020      0.001      3.492      0.000       0.001       0.003
+0              0.1363      0.452      0.301      0.763      -0.750       1.022
+==============================================================================
+Omnibus:                        0.666   Durbin-Watson:                   2.043
+Prob(Omnibus):                  0.717   Jarque-Bera (JB):                0.053
+Skew:                           0.118   Prob(JB):                        0.974
+Kurtosis:                       3.123   Cond. No.                     1.09e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 2 lags and without small sample correction
+[2] The condition number is large, 1.09e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
