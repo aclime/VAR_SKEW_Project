@@ -1036,9 +1036,14 @@ def index_time_series(monthly_portfolios):
         #print(f'{i} month')
         #for method in ['CBOE SKEW','SKEW Method 2','SSKEW']:
         for method in skew_methods:
-            plt.plot(pd.to_datetime(monthly_portfolios.modified_trade_date),
-                    monthly_portfolios[f'{i} month {method}'],
+            if method=='SKEW_KNS':
+                plt.plot(pd.to_datetime(monthly_portfolios.modified_trade_date),
+                    monthly_portfolios[f'{i} month {method}_scaled'],
                     label=f'{method}',)
+            else:
+                plt.plot(pd.to_datetime(monthly_portfolios.modified_trade_date),
+                        monthly_portfolios[f'{i} month {method}'],
+                        label=f'{method}',)
         #plt.axhline(y=0, color='r', linestyle='--') 
         plt.title(f'{i} month SKEW indexes')
         #plt.xlabel('$t$')
@@ -1053,7 +1058,7 @@ def index_time_series(monthly_portfolios):
 
         #display(monthly_portfolios[[f'{i} month {m}' for m in skew_methods]].corr().round(2))
         corr_mtx=monthly_portfolios[[f'{i} month {m}' for m in skew_methods]].corr().round(2)
-        corr_mtx.to_csv(f'outputs/index time series/{i} month Skew Inex Correlations')
+        corr_mtx.to_csv(f'outputs/index time series/{i} month Skew Inex Correlations.csv')
 
 
 def expectation_hypothesis_regressions(monthly_portfolios,cutoff_year=None):
