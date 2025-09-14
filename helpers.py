@@ -609,6 +609,7 @@ def compute_option_portfolios(num_periods_wanted=3,lb_year=1998,ub_year=2023,tic
                         portfolio_dict[id_counter][f'{i+1} month market gross return']=settle_value/F
                         portfolio_dict[id_counter][f'{i+1} month F']=F
                         portfolio_dict[id_counter][f'{i+1} month S_T']=settle_value
+                        portfolio_dict[id_counter][f'{i+1} month interest rate']=r
                         
 
 
@@ -760,14 +761,20 @@ def compute_option_portfolios(num_periods_wanted=3,lb_year=1998,ub_year=2023,tic
 
 
 def compute_correlation_matrices(df):
-    correlation_dfs=[]
+    #correlation_dfs=[]
     cols=['VIX^2 Delta Hedged return(%)','Realized Variance Return (%)','GVIX^2 Delta Hedged return(%)','Realized Weighted_Gamma Variance Return (%)','SKEW_KNS Delta Hedged return(%)','Realized Weighted Skew Return (%)']
     for i in range(1,3+1):
         for col in cols:
             df[f'{i} month {col}']=df[f'{i} month {col}'].astype(float)
+            df[f'{i} month interest rate']=df[f'{i} month interest rate'].astype(float)
             corr_mtx=df[[f'{i} month {col}' for col in cols]].corr()
             corr_mtx.to_csv(f'outputs/returns_correlations/{i} month returns correlation.csv')
             #correlation_dfs.append(corr_mtx)
+            excess_returns=df[[f'{i} month {col}' for col in cols]].sub(df[f'{i} month interest rate'],axis=0)
+            excess_returns=excess_returns.describe()
+            excess_returns.to_csv(f'outputs/returns_correlations/{i} month excess returns.csv')
+
+
     #return correlation_dfs
 
 def skew_payoff_graphs(option_portfolios_df,maturity_months=1):
