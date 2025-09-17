@@ -459,7 +459,6 @@ def compute_option_portfolios(num_periods_wanted=3,lb_year=1998,ub_year=2023,tic
 
                         #Delta Hedging and Realized Moments
 
-            
                         #daily_int_rate=np.exp(r*1/360)-1
                         hedge_df=sp500_df[(sp500_df.Date>=modified_trade_date)&(sp500_df.Date<term)]
                         hedge_df=hedge_df.copy()
@@ -770,7 +769,7 @@ def compute_correlation_matrices(df):
             corr_mtx=df[[f'{i} month {col}' for col in cols]].corr()
             corr_mtx.to_csv(f'outputs/returns_correlations/{i} month returns correlation.csv')
             #correlation_dfs.append(corr_mtx)
-            excess_returns=df[[f'{i} month {col}' for col in cols]].sub(df[f'{i} month interest rate'],axis=0)
+            excess_returns=df[[f'{i} month {col}' for col in cols]].sub(df[f'{i} month interest rate']*100,axis=0)
             excess_returns=excess_returns.describe()
             excess_returns.to_csv(f'outputs/returns_correlations/{i} month excess returns.csv')
 
