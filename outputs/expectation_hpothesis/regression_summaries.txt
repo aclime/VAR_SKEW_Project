@@ -6,8 +6,8 @@
 Dep. Variable:                      y   R-squared:                       0.026
 Model:                            OLS   Adj. R-squared:                  0.023
 Method:                 Least Squares   F-statistic:                     6.793
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):            0.00960
-Time:                        03:23:39   Log-Likelihood:                 1268.3
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):            0.00960
+Time:                        21:42:09   Log-Likelihood:                 1268.3
 No. Observations:                 307   AIC:                            -2533.
 Df Residuals:                     305   BIC:                            -2525.
 Df Model:                           1                                         
@@ -33,8 +33,8 @@ Notes:
 Dep. Variable:                      H   R-squared:                       0.098
 Model:                            OLS   Adj. R-squared:                  0.095
 Method:                 Least Squares   F-statistic:                     28.06
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):           2.26e-07
-Time:                        03:23:39   Log-Likelihood:                 1268.3
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):           2.26e-07
+Time:                        21:42:09   Log-Likelihood:                 1268.3
 No. Observations:                 307   AIC:                            -2533.
 Df Residuals:                     305   BIC:                            -2525.
 Df Model:                           1                                         
@@ -61,8 +61,8 @@ Notes:
 Dep. Variable:             H_discrete   R-squared:                       0.004
 Model:                            OLS   Adj. R-squared:                  0.001
 Method:                 Least Squares   F-statistic:                     1.155
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):              0.283
-Time:                        03:23:39   Log-Likelihood:                 1170.1
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):              0.283
+Time:                        21:42:09   Log-Likelihood:                 1170.1
 No. Observations:                 307   AIC:                            -2336.
 Df Residuals:                     305   BIC:                            -2329.
 Df Model:                           1                                         
@@ -90,8 +90,8 @@ Notes:
 Dep. Variable:                      y   R-squared:                       0.070
 Model:                            OLS   Adj. R-squared:                  0.067
 Method:                 Least Squares   F-statistic:                     8.751
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):            0.00334
-Time:                        03:23:39   Log-Likelihood:                 1309.4
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):            0.00334
+Time:                        21:42:10   Log-Likelihood:                 1309.4
 No. Observations:                 307   AIC:                            -2615.
 Df Residuals:                     305   BIC:                            -2607.
 Df Model:                           1                                         
@@ -117,8 +117,8 @@ Notes:
 Dep. Variable:                      H   R-squared:                       0.062
 Model:                            OLS   Adj. R-squared:                  0.059
 Method:                 Least Squares   F-statistic:                     7.712
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):            0.00583
-Time:                        03:23:39   Log-Likelihood:                 1309.4
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):            0.00583
+Time:                        21:42:10   Log-Likelihood:                 1309.4
 No. Observations:                 307   AIC:                            -2615.
 Df Residuals:                     305   BIC:                            -2607.
 Df Model:                           1                                         
@@ -145,8 +145,8 @@ Notes:
 Dep. Variable:             H_discrete   R-squared:                       0.001
 Model:                            OLS   Adj. R-squared:                 -0.002
 Method:                 Least Squares   F-statistic:                    0.8901
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):              0.346
-Time:                        03:23:39   Log-Likelihood:                 1219.3
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):              0.346
+Time:                        21:42:10   Log-Likelihood:                 1219.3
 No. Observations:                 307   AIC:                            -2435.
 Df Residuals:                     305   BIC:                            -2427.
 Df Model:                           1                                         
@@ -174,8 +174,8 @@ Notes:
 Dep. Variable:                      y   R-squared:                       0.096
 Model:                            OLS   Adj. R-squared:                  0.093
 Method:                 Least Squares   F-statistic:                     9.217
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):            0.00261
-Time:                        03:23:39   Log-Likelihood:                 1209.6
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):            0.00261
+Time:                        21:42:10   Log-Likelihood:                 1209.6
 No. Observations:                 306   AIC:                            -2415.
 Df Residuals:                     304   BIC:                            -2408.
 Df Model:                           1                                         
@@ -201,8 +201,8 @@ Notes:
 Dep. Variable:                      H   R-squared:                       0.119
 Model:                            OLS   Adj. R-squared:                  0.116
 Method:                 Least Squares   F-statistic:                     11.78
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):           0.000682
-Time:                        03:23:39   Log-Likelihood:                 1209.6
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):           0.000682
+Time:                        21:42:10   Log-Likelihood:                 1209.6
 No. Observations:                 306   AIC:                            -2415.
 Df Residuals:                     304   BIC:                            -2408.
 Df Model:                           1                                         
@@ -229,8 +229,8 @@ Notes:
 Dep. Variable:             H_discrete   R-squared:                       0.041
 Model:                            OLS   Adj. R-squared:                  0.038
 Method:                 Least Squares   F-statistic:                     16.40
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):           6.53e-05
-Time:                        03:23:39   Log-Likelihood:                 1179.4
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):           6.53e-05
+Time:                        21:42:10   Log-Likelihood:                 1179.4
 No. Observations:                 306   AIC:                            -2355.
 Df Residuals:                     304   BIC:                            -2347.
 Df Model:                           1                                         
@@ -258,8 +258,8 @@ Notes:
 Dep. Variable:                      y   R-squared:                       0.162
 Model:                            OLS   Adj. R-squared:                  0.159
 Method:                 Least Squares   F-statistic:                     37.08
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):           3.42e-09
-Time:                        03:23:39   Log-Likelihood:                 1254.8
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):           3.42e-09
+Time:                        21:42:10   Log-Likelihood:                 1254.8
 No. Observations:                 306   AIC:                            -2506.
 Df Residuals:                     304   BIC:                            -2498.
 Df Model:                           1                                         
@@ -285,8 +285,8 @@ Notes:
 Dep. Variable:                      H   R-squared:                       0.065
 Model:                            OLS   Adj. R-squared:                  0.062
 Method:                 Least Squares   F-statistic:                     13.33
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):           0.000307
-Time:                        03:23:39   Log-Likelihood:                 1254.8
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):           0.000307
+Time:                        21:42:10   Log-Likelihood:                 1254.8
 No. Observations:                 306   AIC:                            -2506.
 Df Residuals:                     304   BIC:                            -2498.
 Df Model:                           1                                         
@@ -313,8 +313,8 @@ Notes:
 Dep. Variable:             H_discrete   R-squared:                       0.001
 Model:                            OLS   Adj. R-squared:                 -0.002
 Method:                 Least Squares   F-statistic:                    0.1752
-Date:                Sun, 14 Sep 2025   Prob (F-statistic):              0.676
-Time:                        03:23:39   Log-Likelihood:                 1241.3
+Date:                Tue, 16 Sep 2025   Prob (F-statistic):              0.676
+Time:                        21:42:10   Log-Likelihood:                 1241.3
 No. Observations:                 306   AIC:                            -2479.
 Df Residuals:                     304   BIC:                            -2471.
 Df Model:                           1                                         
